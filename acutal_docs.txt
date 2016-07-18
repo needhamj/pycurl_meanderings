@@ -46,6 +46,9 @@ The project should have some tests. However in the case of this small set of
 functionality it can be assusmed that the requests are what is made and the
 frequency of requests is bound by the enclosing loop.
 
+Unfortunately I was not able to authenticate with the Heroku server; I didn't
+have time to work this out.
+
 Obvious extensions:
 There should be a database so that scores can be usefully compared and queried
 in an appropriate manner, outputting data into some sort of visualisation

@@ -57,7 +57,7 @@ class TestConnection(object):
             # See when it comes back.
             t = datetime.now() - t
             self.avg_RTT += t.total_seconds()
-            self.goodput = 1000 / t.total_seconds()
+            self.goodput = 1000 / (2 * t.total_seconds())
 
 
 if __name__ == "__main__":
