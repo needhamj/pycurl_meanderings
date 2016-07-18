@@ -1,0 +1,39 @@
+Round-trip delay time
+From Wikipedia, the free encyclopedia
+
+In telecommunications, the round-trip delay time (RTD) or round-trip time (RTT)
+is the length of time it takes for a signal to be sent plus the length of time
+it takes for an acknowledgment of that signal to be received. This time delay
+therefore consists of the propagation times between the two points of a
+signal.
+
+Goodput
+From Wikipedia, the free encyclopedia
+
+
+In computer networks, goodput is the application-level throughput (i.e. the
+number of useful information bits delivered by the network to a certain
+destination per unit of time). The amount of data considered excludes protocol
+overhead bits as well as retransmitted data packets. This is related to the
+amount of time from the first bit of the first packet sent (or delivered) until
+the last bit of the last packet is delivered.
+
+Additional Notes:
+
+Clearly the username and password should be extracted from a pickled hash of
+the actual username and password instead of including them in the code, which
+is insane. I however did not have time to complete this. However if I do get
+the job, I will make sure I budget time to encode usernames and passwords
+appropriately, not like an idiot.
+
+The project should have some tests. However in the case of this small set of
+functionality it can be assusmed that the requests are what is made and the
+frequency of requests is bound by the enclosing loop.
+
+Assumptions:
+The "good" data is 1000 bytes.
+
+Obvious extensions:
+There should be a database so that scores can be usefully compared and queried
+in an appropriate manner, outputting data into some sort of visualisation
+library, for example matplotlib for a user experience.
